@@ -52,7 +52,7 @@ const router = useRouter()
 const submitForm = () => {
   formRef.value.validate().then((valid) => {
     if (valid) {
-      // Simular login exitoso
+      // Simular login exitosooo
       console.log('Login exitoso:', email.value)
       router.push('/usuarios') // Redirige al listado
     } else {
